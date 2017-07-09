@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC9ACEA1F04183D0095B047 /* TheTerminator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9ACE91F04183D0095B047 /* TheTerminator.swift */; };
+		BC1956091D1085DA00ED16A6 /* flat_medal_big.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1956081D1085DA00ED16A6 /* flat_medal_big.png */; };
+		BC19560B1D1086E400ED16A6 /* Confetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC19560A1D1086E400ED16A6 /* Confetti.sks */; };
+		BC3D14751D036A03009F8569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14741D036A03009F8569 /* AppDelegate.m */; };
+		BC3D14781D036A03009F8569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14771D036A03009F8569 /* main.m */; };
+		BC3D147F1D036A03009F8569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3D147E1D036A03009F8569 /* Assets.xcassets */; };
+		BC3D14821D036A03009F8569 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14801D036A03009F8569 /* MainMenu.xib */; };
+		BC3D14B71D036B24009F8569 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14951D036B24009F8569 /* Bullet.m */; };
+		BC3D14B81D036B24009F8569 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14971D036B24009F8569 /* GameOverScene.m */; };
+		BC3D14BA1D036B24009F8569 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D149B1D036B24009F8569 /* Helpers.m */; };
+		BC3D14BB1D036B24009F8569 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D149D1D036B24009F8569 /* MainScene.m */; };
+		BC3D14BC1D036B24009F8569 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D149F1D036B24009F8569 /* Robot.m */; };
+		BC3D14BD1D036B24009F8569 /* RobotAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14A21D036B24009F8569 /* RobotAction.m */; };
+		BC3D14BF1D036B24009F8569 /* TournamentWonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14A61D036B24009F8569 /* TournamentWonScene.m */; };
+		BC3D14C01D036B24009F8569 /* BombExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14A91D036B24009F8569 /* BombExplosion.sks */; };
+		BC3D14C11D036B24009F8569 /* BulletExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14AA1D036B24009F8569 /* BulletExplosion.sks */; };
+		BC3D14C21D036B24009F8569 /* fieldOfView.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14AB1D036B24009F8569 /* fieldOfView.png */; };
+		BC3D14C31D036B24009F8569 /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14AC1D036B24009F8569 /* MainScene.sks */; };
+		BC3D14C41D036B24009F8569 /* Robot.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14AD1D036B24009F8569 /* Robot.sks */; };
+		BC3D14C51D036B24009F8569 /* RobotExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14AE1D036B24009F8569 /* RobotExplosion.sks */; };
+		BC3D14C61D036B24009F8569 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14AF1D036B24009F8569 /* spark.png */; };
+		BC3D14D31D036C0F009F8569 /* CamperRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14CF1D036C0F009F8569 /* CamperRobot.swift */; };
+		BC3D14D51D036C0F009F8569 /* TurretRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14D11D036C0F009F8569 /* TurretRobot.swift */; };
+		BC3D14D71D03783B009F8569 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14D61D03783B009F8569 /* GameOverScene.sks */; };
+		BC3D14D81D0378D2009F8569 /* TournamentScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D14A41D036B24009F8569 /* TournamentScene.m */; };
+		BC3D14DA1D0388B8009F8569 /* TournamentScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC3D14D91D0388B8009F8569 /* TournamentScene.sks */; };
+		BCCD0AD41D22FFE9004720FB /* TournamentWonScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BCCD0AD31D22FFE9004720FB /* TournamentWonScene.sks */; };
+		BCCD0AD71D230236004720FB /* AdvancedRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD0AD51D230236004720FB /* AdvancedRobot.swift */; };
+		BCCD0AD81D230236004720FB /* SimpleRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCD0AD61D230236004720FB /* SimpleRobot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DC9ACE91F04183D0095B047 /* TheTerminator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheTerminator.swift; sourceTree = "<group>"; };
+		BC1956081D1085DA00ED16A6 /* flat_medal_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flat_medal_big.png; sourceTree = "<group>"; };
+		BC19560A1D1086E400ED16A6 /* Confetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Confetti.sks; sourceTree = "<group>"; };
+		BC3D14701D036A03009F8569 /* RobotWarsOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotWarsOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3D14731D036A03009F8569 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		BC3D14741D036A03009F8569 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		BC3D14771D036A03009F8569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3D147E1D036A03009F8569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3D14811D036A03009F8569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC3D14831D036A03009F8569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3D14921D036B24009F8569 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		BC3D14941D036B24009F8569 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		BC3D14951D036B24009F8569 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		BC3D14961D036B24009F8569 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		BC3D14971D036B24009F8569 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		BC3D149A1D036B24009F8569 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		BC3D149B1D036B24009F8569 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		BC3D149C1D036B24009F8569 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		BC3D149D1D036B24009F8569 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		BC3D149E1D036B24009F8569 /* Robot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		BC3D149F1D036B24009F8569 /* Robot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		BC3D14A01D036B24009F8569 /* Robot_Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robot_Framework.h; sourceTree = "<group>"; };
+		BC3D14A11D036B24009F8569 /* RobotAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotAction.h; sourceTree = "<group>"; };
+		BC3D14A21D036B24009F8569 /* RobotAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotAction.m; sourceTree = "<group>"; };
+		BC3D14A31D036B24009F8569 /* TournamentScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentScene.h; sourceTree = "<group>"; };
+		BC3D14A41D036B24009F8569 /* TournamentScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentScene.m; sourceTree = "<group>"; };
+		BC3D14A51D036B24009F8569 /* TournamentWonScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentWonScene.h; sourceTree = "<group>"; };
+		BC3D14A61D036B24009F8569 /* TournamentWonScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentWonScene.m; sourceTree = "<group>"; };
+		BC3D14A71D036B24009F8569 /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
+		BC3D14A91D036B24009F8569 /* BombExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BombExplosion.sks; sourceTree = "<group>"; };
+		BC3D14AA1D036B24009F8569 /* BulletExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BulletExplosion.sks; sourceTree = "<group>"; };
+		BC3D14AB1D036B24009F8569 /* fieldOfView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fieldOfView.png; sourceTree = "<group>"; };
+		BC3D14AC1D036B24009F8569 /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
+		BC3D14AD1D036B24009F8569 /* Robot.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Robot.sks; sourceTree = "<group>"; };
+		BC3D14AE1D036B24009F8569 /* RobotExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RobotExplosion.sks; sourceTree = "<group>"; };
+		BC3D14AF1D036B24009F8569 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		BC3D14B61D036B24009F8569 /* TournamentConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentConfiguration.h; sourceTree = "<group>"; };
+		BC3D14CD1D036C0F009F8569 /* RobotWarsOSX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RobotWarsOSX-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC3D14CF1D036C0F009F8569 /* CamperRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CamperRobot.swift; path = RobotWarsOSX/Robots/CamperRobot.swift; sourceTree = SOURCE_ROOT; };
+		BC3D14D11D036C0F009F8569 /* TurretRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TurretRobot.swift; path = RobotWarsOSX/Robots/TurretRobot.swift; sourceTree = SOURCE_ROOT; };
+		BC3D14D61D03783B009F8569 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		BC3D14D91D0388B8009F8569 /* TournamentScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TournamentScene.sks; sourceTree = "<group>"; };
+		BCCD0AD31D22FFE9004720FB /* TournamentWonScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TournamentWonScene.sks; sourceTree = "<group>"; };
+		BCCD0AD51D230236004720FB /* AdvancedRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdvancedRobot.swift; path = RobotWarsOSX/Robots/AdvancedRobot.swift; sourceTree = SOURCE_ROOT; };
+		BCCD0AD61D230236004720FB /* SimpleRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleRobot.swift; path = RobotWarsOSX/Robots/SimpleRobot.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3D146D1D036A03009F8569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3D14671D036A03009F8569 = {
+			isa = PBXGroup;
+			children = (
+				BC3D14721D036A03009F8569 /* RobotWarsOSX */,
+				BC3D14711D036A03009F8569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3D14711D036A03009F8569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D14701D036A03009F8569 /* RobotWarsOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3D14721D036A03009F8569 /* RobotWarsOSX */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D14CC1D036BF2009F8569 /* Robots */,
+				BC3D14921D036B24009F8569 /* Configuration.h */,
+				BC3D14A71D036B24009F8569 /* GameConstants.h */,
+				BC3D14B61D036B24009F8569 /* TournamentConfiguration.h */,
+				BC3D14931D036B24009F8569 /* Engine */,
+				BC3D14A81D036B24009F8569 /* Resources */,
+				BC3D147E1D036A03009F8569 /* Assets.xcassets */,
+				BC3D14801D036A03009F8569 /* MainMenu.xib */,
+				BC3D14831D036A03009F8569 /* Info.plist */,
+				BC3D14761D036A03009F8569 /* Supporting Files */,
+			);
+			path = RobotWarsOSX;
+			sourceTree = "<group>";
+		};
+		BC3D14761D036A03009F8569 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D14771D036A03009F8569 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3D14931D036B24009F8569 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D14731D036A03009F8569 /* AppDelegate.h */,
+				BC3D14741D036A03009F8569 /* AppDelegate.m */,
+				BC3D149C1D036B24009F8569 /* MainScene.h */,
+				BC3D149D1D036B24009F8569 /* MainScene.m */,
+				BC3D14941D036B24009F8569 /* Bullet.h */,
+				BC3D14951D036B24009F8569 /* Bullet.m */,
+				BC3D149A1D036B24009F8569 /* Helpers.h */,
+				BC3D149B1D036B24009F8569 /* Helpers.m */,
+				BC3D14A01D036B24009F8569 /* Robot_Framework.h */,
+				BC3D149E1D036B24009F8569 /* Robot.h */,
+				BC3D149F1D036B24009F8569 /* Robot.m */,
+				BC3D14A11D036B24009F8569 /* RobotAction.h */,
+				BC3D14A21D036B24009F8569 /* RobotAction.m */,
+				BC3D14961D036B24009F8569 /* GameOverScene.h */,
+				BC3D14971D036B24009F8569 /* GameOverScene.m */,
+				BC3D14A31D036B24009F8569 /* TournamentScene.h */,
+				BC3D14A41D036B24009F8569 /* TournamentScene.m */,
+				BC3D14A51D036B24009F8569 /* TournamentWonScene.h */,
+				BC3D14A61D036B24009F8569 /* TournamentWonScene.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		BC3D14A81D036B24009F8569 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD0AD31D22FFE9004720FB /* TournamentWonScene.sks */,
+				BC1956081D1085DA00ED16A6 /* flat_medal_big.png */,
+				BC19560A1D1086E400ED16A6 /* Confetti.sks */,
+				BC3D14A91D036B24009F8569 /* BombExplosion.sks */,
+				BC3D14AA1D036B24009F8569 /* BulletExplosion.sks */,
+				BC3D14AB1D036B24009F8569 /* fieldOfView.png */,
+				BC3D14AC1D036B24009F8569 /* MainScene.sks */,
+				BC3D14D61D03783B009F8569 /* GameOverScene.sks */,
+				BC3D14D91D0388B8009F8569 /* TournamentScene.sks */,
+				BC3D14AD1D036B24009F8569 /* Robot.sks */,
+				BC3D14AE1D036B24009F8569 /* RobotExplosion.sks */,
+				BC3D14AF1D036B24009F8569 /* spark.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC3D14CC1D036BF2009F8569 /* Robots */ = {
+			isa = PBXGroup;
+			children = (
+				BCCD0AD51D230236004720FB /* AdvancedRobot.swift */,
+				BCCD0AD61D230236004720FB /* SimpleRobot.swift */,
+				2DC9ACE91F04183D0095B047 /* TheTerminator.swift */,
+				BC3D14D11D036C0F009F8569 /* TurretRobot.swift */,
+				BC3D14CF1D036C0F009F8569 /* CamperRobot.swift */,
+				BC3D14CD1D036C0F009F8569 /* RobotWarsOSX-Bridging-Header.h */,
+			);
+			name = Robots;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3D146F1D036A03009F8569 /* RobotWarsOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3D14861D036A03009F8569 /* Build configuration list for PBXNativeTarget "RobotWarsOSX" */;
+			buildPhases = (
+				BC3D146C1D036A03009F8569 /* Sources */,
+				BC3D146D1D036A03009F8569 /* Frameworks */,
+				BC3D146E1D036A03009F8569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotWarsOSX;
+			productName = RobotWarsOSX;
+			productReference = BC3D14701D036A03009F8569 /* RobotWarsOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3D14681D036A03009F8569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Make School";
+				TargetAttributes = {
+					BC3D146F1D036A03009F8569 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = BC3D146B1D036A03009F8569 /* Build configuration list for PBXProject "RobotWarsOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3D14671D036A03009F8569;
+			productRefGroup = BC3D14711D036A03009F8569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3D146F1D036A03009F8569 /* RobotWarsOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3D146E1D036A03009F8569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D14C51D036B24009F8569 /* RobotExplosion.sks in Resources */,
+				BC1956091D1085DA00ED16A6 /* flat_medal_big.png in Resources */,
+				BC3D14C61D036B24009F8569 /* spark.png in Resources */,
+				BC3D14C01D036B24009F8569 /* BombExplosion.sks in Resources */,
+				BC3D147F1D036A03009F8569 /* Assets.xcassets in Resources */,
+				BC3D14DA1D0388B8009F8569 /* TournamentScene.sks in Resources */,
+				BC3D14821D036A03009F8569 /* MainMenu.xib in Resources */,
+				BC3D14C11D036B24009F8569 /* BulletExplosion.sks in Resources */,
+				BCCD0AD41D22FFE9004720FB /* TournamentWonScene.sks in Resources */,
+				BC3D14C21D036B24009F8569 /* fieldOfView.png in Resources */,
+				BC3D14C41D036B24009F8569 /* Robot.sks in Resources */,
+				BC19560B1D1086E400ED16A6 /* Confetti.sks in Resources */,
+				BC3D14D71D03783B009F8569 /* GameOverScene.sks in Resources */,
+				BC3D14C31D036B24009F8569 /* MainScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3D146C1D036A03009F8569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3D14BF1D036B24009F8569 /* TournamentWonScene.m in Sources */,
+				BC3D14BC1D036B24009F8569 /* Robot.m in Sources */,
+				BC3D14BD1D036B24009F8569 /* RobotAction.m in Sources */,
+				BC3D14781D036A03009F8569 /* main.m in Sources */,
+				BC3D14751D036A03009F8569 /* AppDelegate.m in Sources */,
+				BC3D14BB1D036B24009F8569 /* MainScene.m in Sources */,
+				BC3D14BA1D036B24009F8569 /* Helpers.m in Sources */,
+				BC3D14D51D036C0F009F8569 /* TurretRobot.swift in Sources */,
+				BC3D14D31D036C0F009F8569 /* CamperRobot.swift in Sources */,
+				2DC9ACEA1F04183D0095B047 /* TheTerminator.swift in Sources */,
+				BC3D14B81D036B24009F8569 /* GameOverScene.m in Sources */,
+				BC3D14D81D0378D2009F8569 /* TournamentScene.m in Sources */,
+				BC3D14B71D036B24009F8569 /* Bullet.m in Sources */,
+				BCCD0AD81D230236004720FB /* SimpleRobot.swift in Sources */,
+				BCCD0AD71D230236004720FB /* AdvancedRobot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC3D14801D036A03009F8569 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3D14811D036A03009F8569 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3D14841D036A03009F8569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC3D14851D036A03009F8569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BC3D14871D036A03009F8569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobotWarsOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.RobotWarsOSX;
+				PRODUCT_NAME = RobotWarsOSX;
+				SWIFT_OBJC_BRIDGING_HEADER = "RobotWarsOSX/Resources/RobotWarsOSX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC3D14881D036A03009F8569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RobotWarsOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.RobotWarsOSX;
+				PRODUCT_NAME = RobotWarsOSX;
+				SWIFT_OBJC_BRIDGING_HEADER = "RobotWarsOSX/Resources/RobotWarsOSX-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3D146B1D036A03009F8569 /* Build configuration list for PBXProject "RobotWarsOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3D14841D036A03009F8569 /* Debug */,
+				BC3D14851D036A03009F8569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3D14861D036A03009F8569 /* Build configuration list for PBXNativeTarget "RobotWarsOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3D14871D036A03009F8569 /* Debug */,
+				BC3D14881D036A03009F8569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3D14681D036A03009F8569 /* Project object */;
+}
